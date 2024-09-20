@@ -59,7 +59,7 @@ This project is an advanced movie recommendation system that uses Machine Learni
 ## ⚙️ Installation and Setup
 1. Clone this repository:
     ```bash
-    git clone https://github.com/your-username/your-repository.git
+    git clone https://github.com/larissadcew/movie-recommendation-system
     ```
 2. Create a virtual environment and install the dependencies:
     ```bash
