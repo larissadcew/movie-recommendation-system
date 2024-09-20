@@ -1,0 +1,38 @@
+{% extends "base.html" %}
+{% block body %}
+  <!-- Profile Content -->
+  <div class="container mt-5">
+    <h2>User Profile</h2>
+    <div class="row">
+        <div class="col-md-4">
+            <!-- User Info Card -->
+            <div class="card">
+                <img src="https://via.placeholder.com/200x200" class="card-img-top" alt="User Profile Picture">
+                <div class="card-body">
+                    <h5 class="card-title">Username</h5>
+                    <p class="card-text">Email: user@example.com</p>
+                    <p class="card-text">Favorite Genres: Action, Drama, Sci-Fi</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-8">
+            <!-- User Activity -->
+            <h3>Watch History</h3>
+            <ul class="list-group mb-4">
+                <li class="list-group-item">Movie 1 - Watched on 2024-09-10</li>
+                <li class="list-group-item">Movie 2 - Watched on 2024-09-08</li>
+                <li class="list-group-item">Movie 3 - Watched on 2024-09-05</li>
+                <!-- Repeat for other watched movies... -->
+            </ul>
+
+            <h3>Watchlist</h3>
+            <ul class="list-group">
+                <li class="list-group-item">Movie 4 - Added to Watchlist</li>
+                <li class="list-group-item">Movie 5 - Added to Watchlist</li>
+                <!-- Repeat for other watchlist movies... -->
+            </ul>
+        </div>
+    </div>
+</div>
+
+{% endblock  %}

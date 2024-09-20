@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+
+{% block body %}
+<div class="container mt-5">
+    <h2>Your Watchlist</h2>
+    <div class="row">
+        <!-- Example watchlist movie -->
+        <div class="col-md-4">
+            <div class="card h-100">
+                <img src="https://via.placeholder.com/300x400" class="card-img-top" alt="Movie Poster">
+                <div class="card-body">
+                    <h5 class="card-title">Movie Title</h5>
+                    <p class="card-text">A brief description of the movie.</p>
+                </div>
+                <div class="card-footer">
+                    <button class="btn btn-danger btn-sm">Remove from Watchlist</button>
+                    <button class="btn btn-secondary btn-sm">View Details</button>
+                </div>
+            </div>
+        </div>
+        <!-- Repeat for other watchlist movies... -->
+    </div>
+</div>
+{% endblock body %}

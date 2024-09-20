@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+
+{% block body %}
+
+<div class="container mt-5">
+    <h2>Trending Movies</h2>
+    <div class="row">
+        <!-- Example trending movie -->
+        <div class="col-md-3">
+            <div class="card h-100">
+                <img src="https://via.placeholder.com/200x300" class="card-img-top" alt="Movie Poster">
+                <div class="card-body">
+                    <h5 class="card-title">Trending Movie Title</h5>
+                </div>
+                <div class="card-footer">
+                    <button class="btn btn-secondary btn-sm">View Details</button>
+                </div>
+            </div>
+        </div>
+        <!-- Repeat for other trending movies... -->
+    </div>
+</div>
+{% endblock  %}

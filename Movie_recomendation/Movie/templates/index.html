@@ -2,6 +2,53 @@
 
 {% block body %}
 
-<h2>Hello ,word</h1>
+<div class="container mt-5">
+    <!-- Search Bar -->
+    <div class="row">
+        <div class="col-md-8 mx-auto">
+            <div class="input-group mb-3">
+                <input type="text" class="form-control" placeholder="Search for a movie..." aria-label="Movie Search" aria-describedby="button-addon2">
+                <button class="btn btn-outline-secondary" type="button" id="button-addon2">Search</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Movie List -->
+    <div class="row">
+        <!-- Example movie card -->
+        <div class="col-md-4 movie-card">
+            <div class="card h-100">
+                <img src="https://via.placeholder.com/300x400" class="card-img-top" alt="Movie Poster">
+                <div class="card-body">
+                    <h5 class="card-title">Movie Title</h5>
+                    <p class="card-text">A brief description of the movie goes here.</p>
+                </div>
+                <div class="card-footer">
+                    <button class="btn btn-primary btn-sm">Add to Watchlist</button>
+                    <button class="btn btn-secondary btn-sm">View Details</button>
+                </div>
+            </div>
+        </div>
+        <!-- Repeat for other movies... -->
+    </div>
+
+    <!-- Trending Movies Section -->
+    <div class="mt-5">
+        <h2>Trending Movies</h2>
+        <div class="row">
+            <!-- Example trending movie card -->
+            <div class="col-md-3 movie-card">
+                <div class="card h-100">
+                    <img src="https://via.placeholder.com/200x300" class="card-img-top" alt="Trending Movie Poster">
+                    <div class="card-body">
+                        <h5 class="card-title">Trending Movie</h5>
+                    </div>
+                </div>
+            </div>
+            <!-- Repeat for other trending movies... -->
+        </div>
+    </div>
+</div>
+
 
 {% endblock %}
